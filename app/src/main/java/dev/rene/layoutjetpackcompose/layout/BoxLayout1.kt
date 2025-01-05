@@ -10,15 +10,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.focus.focusModifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun Box_Layout(){
+fun Box_Layout1(){
     Box(contentAlignment = Alignment.BottomEnd,
         modifier = Modifier.padding(vertical = 36.dp, horizontal = 24.dp)
-        .fillMaxSize()
+            .fillMaxSize()
     ){
         Box(
             modifier = Modifier.size(100.dp)
@@ -31,35 +30,7 @@ fun Box_Layout(){
     ){
         Box(
             modifier = Modifier.size(100.dp)
-                .background(color = Color.Gray)
-        ){}
-    }
-    Box(contentAlignment = Alignment.TopStart,
-        modifier = Modifier.padding(vertical = 36.dp, horizontal = 24.dp)
-            .fillMaxSize()
-    ){
-        Box(
-            modifier = Modifier.size(100.dp)
-                .background(color = Color.Magenta)
-        ){}
-    }
-    Box(contentAlignment = Alignment.BottomStart,
-        modifier = Modifier.padding(vertical = 36.dp, horizontal = 24.dp)
-            .fillMaxSize()
-    ){
-        Box(
-            modifier = Modifier.size(100.dp)
-                .background(color = Color.Yellow)
-        ){}
-    }
-    Box(contentAlignment = Alignment.Center,
-        modifier = Modifier.padding(vertical = 36.dp, horizontal = 24.dp)
-            .fillMaxSize()
-    ){
-        Box(
-            modifier = Modifier.size(100.dp)
-                .background(color = Color.Blue)
+                .background(color = Color.Green)
         ){}
     }
 }
-

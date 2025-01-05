@@ -18,8 +18,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import dev.rene.layoutjetpackcompose.layout.Box_Layout
+import dev.rene.layoutjetpackcompose.layout.Box_Layout1
 import dev.rene.layoutjetpackcompose.layout.Saludo
 import dev.rene.layoutjetpackcompose.layout.SaludoRow
+import dev.rene.layoutjetpackcompose.layout.SaludoRow1
+import dev.rene.layoutjetpackcompose.layout.ScaffoldLayout
+import dev.rene.layoutjetpackcompose.layout.ScaffoldLayout1
 
 import dev.rene.layoutjetpackcompose.ui.theme.LayoutJetpackComposeTheme
 
@@ -30,7 +35,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Saludo()
+            ScaffoldLayout1()
         }
     }
 
